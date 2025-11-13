@@ -7,6 +7,11 @@ body {
   padding-bottom: 25px;
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 .header-web {
   color: #2196f3;
 }
@@ -21,6 +26,16 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
+}
+
+.header-nav {
+  margin-left: 93px;
+  margin-right: 344px;
+}
+
+.header-list {
+  display: flex;
+  gap: 50px;
 }
 
 .header-page {
@@ -39,7 +54,7 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
+ 
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -48,6 +63,9 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #fff;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button {
@@ -58,11 +76,29 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .company {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.company-container
+{
+  display: flex;
+  align-items: center;
+}
+
+.company-list
+{
+  display: flex;
+  gap: 30px;
 }
 
 .company-title {
@@ -71,6 +107,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .company-text {
@@ -83,6 +120,13 @@ body {
 
 .about {
   padding-bottom: 94px;
+}
+
+.about-list
+{
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
 }
 
 .about-title {
@@ -99,8 +143,16 @@ body {
 }
 
 .team {
+  background: #F5f4fa;
   padding-top: 94px;
   padding-bottom: 124px;
+}
+
+.team-list
+{
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
 }
 
 .team-title {
@@ -114,6 +166,8 @@ body {
 .team-photo {
   width: 270px;
   height: 260px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .team-name {
@@ -122,6 +176,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .team-specialty {
@@ -144,6 +199,7 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
+  margin-bottom: 20px;
 }
 
 .footer-web {
@@ -160,6 +216,14 @@ body {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: #fff;
+  margin-bottom: 9px;
+}
+
+.footer-list
+{
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 .footer-page {
@@ -171,7 +235,7 @@ body {
 }
 
 .container {
-  width: 1199px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
